@@ -1,0 +1,14 @@
+
+> p1-admin@0.0.0 build C:\Users\axiong3\Desktop\ForEverything\WhatGuy\DEV\p1Code\Views\Admin\p1Admin
+> ng build
+
+
+C:\Users\axiong3\Desktop\ForEverything\WhatGuy\DEV\p1Code\Views\Admin\p1Admin>"node"  "C:\Users\axiong3\Desktop\ForEverything\WhatGuy\DEV\p1Code\Views\Admin\p1Admin\node_modules\.bin\\..\_@angular_cli@8.3.14@@angular\cli\bin\ng" build 
+
+chunk {main} main.js, main.js.map (main) 48.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 292 kB [initial] [rendered]
+chunk {polyfills-es5} polyfills-es5.js, polyfills-es5.js.map (polyfills-es5) 634 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 10.2 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.8 MB [initial] [rendered]
+Date: 2019-10-24T04:48:55.057Z - Hash: 498e584fbb8f1829c9e5 - Time: 6474ms

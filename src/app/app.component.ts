@@ -11,12 +11,14 @@ export class AppComponent implements OnInit {
   public switcher= true;
   constructor(public translateService: TranslateService) {
     this.translateService = translateService;
+
+    this.helloStr = translateService.instant('hello');
   }
 
   ngOnInit(): void {
-    this.initTranslateSrv();
+    //this.initTranslateSrv();
 
-    this.initLocalStr();
+    //this.initLocalStr();
   }
 
   initTranslateSrv() {
@@ -26,17 +28,19 @@ export class AppComponent implements OnInit {
     //this.translateService.use(browserLang.match(/zh|en/) ? browserLang : 'zh');
     /* --- set i18n end ---*/
   }
-
+/*
   initLocalStr() {
     this.translateService.get(['hello']).subscribe(translations=>{
       this.helloStr = translations['hello'];
   })
   }
+*/
 
   ChangeLanguage() {
     this.translateService.use(this.switcher ? 'en':'zh');
 
-    this.initLocalStr();
+    //this.initLocalStr();
+    this.helloStr = this.translateService.instant('hello');
 
     this.switcher = !this.switcher;
   }

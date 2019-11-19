@@ -83,6 +83,8 @@ this.translateService.get(['hello']).subscribe(translations=>{
 <h1>{{'hello' | translate}}</h1>  
 ```
 
+### [同步获取语言值](https://github.com/ngx-translate/core/issues/517)
+
 ## 参考
-* [[ngx-translate]](https://segmentfault.com/a/1190000015311981)   
-* [[ngx-translate vs i18n]]()   
+* [ngx-translate](https://segmentfault.com/a/1190000015311981)   
+* [safely use translate.instant()](https://github.com/ngx-translate/core/issues/517)   
